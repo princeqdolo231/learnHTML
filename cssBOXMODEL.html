@@ -85,12 +85,42 @@
 	<img id="cover-image" src="./secondbox.png">
 
 	<h3>Explanation of the different parts:</h3>
-	<p><stong>Content</stong> - The content of the box, where text and images appear</p>
+	<p><strong>Content</strong> - The content of the box, where text and images appear</p>
         <p><strong>Padding</strong> - Clears an area around the content. The padding is transparent</p>
 	<p><strong>Border</strong> - A border that goes around the padding and content.</p>
         <p><strong>Margin</strong> - Clears an area outside the border. The margin is transparent</p>
 
 	<p>The box model allows us to add a border around elements, and to define space between elements.</p>
+	<br>
+
+	<h4>Example</h4><br>
+	<p>Demonstration of the box model:</p>
+	<pre>
+		<code>
+			div {
+			  width: 300px;
+			  border: 15px solid green;
+			  padding: 50px;
+			  margin: 20px;
+			}
+		</code>
+	</pre>
+
+	<h3>Width and Height of an Element</h3>
+	<p>In order to set the width and height of an element correctly in all browsers, you need to know how the box model works.</p>
+
+	<h4>Example</4>
+        <p>element will have a total width of 350px:<p/>
+	<pre>
+		<code>
+			div {
+			  width: 320px;
+			  padding: 10px;
+			  border: 5px solid gray;
+			  margin: 0;
+			}
+		</code>
+	</pre>
 
 </body>
 </html>
